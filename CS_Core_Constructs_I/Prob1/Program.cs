@@ -1,6 +1,6 @@
 ﻿/*
-Author: <your name>
-Date:   <date>
+Author: Cody Martin
+Date:   10/4/19
 CTEC 135: Microsoft Software Development with C#
 
 <Solution Name>
@@ -35,13 +35,52 @@ namespace Prob1
     {
         static void Main(string[] args)
         {
-            #region example of a code region
-            // some code
+            #region variable declarations
+            // Double variables declared 3 different ways
+
+
+            System.Double v1 = 1;
+            double v2 = 2;
+            Double v3 = new double(); 
+
+
             #endregion
 
-            #region another code region
-            // some code
+            #region Variable Initialization/print
+            // CLS compliant numeric type variables
+
+            byte var1 = 1;
+            short var2 = 2;
+            int var3 = 33_33_33;
+            long var4 = 4;
+            float var5 = 5;
+            double var6 = 6;
+            decimal var7 = 77;
+
+            Console.WriteLine("var1: {0:c}", var1);
+            Console.WriteLine("var2: {0}", var2);
+            Console.WriteLine("var3: {0}", var3);
+            Console.WriteLine("var4: {0}", var4);
+            Console.WriteLine("var5: {0}", var5);
+            Console.WriteLine("var6: {0}", var6);
+            Console.WriteLine("var7: {0}", var7);
+
+
+
             #endregion
+
+         
+
+            #region min/max printout for int16
+            // min/max values print for int16
+
+            Console.WriteLine(Int16.MinValue);
+            Console.WriteLine(Int16.MaxValue);
+
+
+            #endregion
+
+
         }
     }
 }
