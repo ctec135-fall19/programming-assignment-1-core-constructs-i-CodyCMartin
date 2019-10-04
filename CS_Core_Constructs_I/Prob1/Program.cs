@@ -59,7 +59,7 @@ namespace Prob1
 
             Console.WriteLine("var1: {0:c}", var1);
             Console.WriteLine("var2: {0}", var2);
-            Console.WriteLine("var3: {0}", var3);
+            Console.WriteLine("var3: {0:g}", var3);
             Console.WriteLine("var4: {0}", var4);
             Console.WriteLine("var5: {0}", var5);
             Console.WriteLine("var6: {0}", var6);
